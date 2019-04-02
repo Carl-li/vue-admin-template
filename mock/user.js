@@ -31,7 +31,7 @@ export default {
 
     if (data) {
       return {
-        code: 20000,
+        code: 0,
         data
       }
     }
@@ -46,7 +46,7 @@ export default {
 
     if (info) {
       return {
-        code: 20000,
+        code: 0,
         data: info
       }
     }
@@ -57,7 +57,7 @@ export default {
   },
   logout: () => {
     return {
-      code: 20000,
+      code: 0,
       data: 'success'
     }
   }
